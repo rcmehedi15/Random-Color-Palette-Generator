@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #b7d6f1;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  #color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .color {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.btn-color {
+    background-color: #007bff; /* Sets the background color to blue */
+    color: #fff; /* Sets the text color to white */
+    border: 2px solid #007bff; /* Sets a blue border with a 2px width */
+    border-radius: 5px; /* Rounds the corners of the button */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle box shadow to the button */
+    padding: 10px 20px; /* Sets the padding inside the button */
+    font-size: 16px; /* Sets the font size of the text inside the button */
+    cursor: pointer; /* Makes the cursor change to a pointer when hovering over the button */
+    transition: all 0.3s ease-in-out; /* Adds a smooth transition effect for all CSS changes */
+  }
+  
+.btn-color:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  }
+  
